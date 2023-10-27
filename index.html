@@ -4,106 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fictional Company</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-        nav {
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 10px 0;
-        }
-        nav a {
-            text-decoration: none;
-            color: #333;
-            padding: 0 10px;
-            transition: all 0.3s ease;
-        }
-        nav a:hover {
-            font-weight: bold;
-            color: #ff7f50;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-            width: 100%;
-        }
-        .about {
-            text-align: center;
-        }
-        .services {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .service {
-            flex-basis: 30%;
-            padding: 20px;
-            margin: 10px;
-            text-align: center;
-            background-color: #f4f4f4;
-            transition: all 0.3s ease;
-        }
-        .service:hover {
-            transform: scale(1.1);
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        }
-        .contact {
-            text-align: center;
-        }
-        .pricing {
-            text-align: center;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .testimonials {
-            text-align: center;
-            padding: 20px;
-        }
-        .testimonial {
-            border: 1px solid #333;
-            padding: 10px;
-            margin: 10px;
-        }
-        .contact-form {
-            text-align: center;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        .contact-form input[type="text"],
-        .contact-form input[type="email"],
-        .contact-form textarea {
-            width: 100%;
-            padding: 12px;
-            margin: 8px 0;
-            display: inline-block;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-        }
-        .contact-form input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            cursor: pointer;
-        }
-        .contact-form input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header>
@@ -141,10 +43,29 @@
     </section>
     <section id="pricing" class="pricing">
         <h2>Pricing</h2>
-        <p>Check out our competitive pricing plans!</p>
-        <p>Plan 1: $10 per month</p>
-        <p>Plan 2: $20 per month</p>
-        <p>Plan 3: $30 per month</p>
+        <div class="container">
+            <div class="card">
+                <h3>Plan 1</h3>
+                <p>£10 per month</p>
+                <p>Feature 1</p>
+                <p>Feature 2</p>
+            </div>
+            <div class="card">
+                <h3>Plan 2</h3>
+                <p>£20 per month</p>
+                <p>Feature 1</p>
+                <p>Feature 2</p>
+                <p>Feature 3</p>
+            </div>
+            <div class="card">
+                <h3>Plan 3</h3>
+                <p>£30 per month</p>
+                <p>Feature 1</p>
+                <p>Feature 2</p>
+                <p>Feature 3</p>
+                <p>Feature 4</p>
+            </div>
+        </div>
     </section>
     <section id="testimonials" class="testimonials">
         <h2>Testimonials</h2>
